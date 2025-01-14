@@ -10,6 +10,11 @@ public class EjecucionParesImpares {
         System.out.print("Ingrese el número de fin: ");
         entrada = teclado.nextLine();
         int fin = Integer.parseInt(entrada);
+        System.out.println("-------------------------");
         ClaseParesImpares.getNumerosPares(inicio, fin);
+        ClaseParesImpares.getNumerosImpares(inicio, fin);
+        System.out.println("-------------------------");
+        ClaseParesImpares.getRangoNumeros(inicio, fin, true);
+        ClaseParesImpares.getRangoNumeros(inicio, fin, false);
     }
 }
