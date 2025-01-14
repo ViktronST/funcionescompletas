@@ -16,5 +16,10 @@ public class EjecucionParesImpares {
         System.out.println("-------------------------");
         ClaseParesImpares.getRangoNumeros(inicio, fin, true);
         ClaseParesImpares.getRangoNumeros(inicio, fin, false);
+
+        //PODEMOS AHCER QUE LA CLASE main NO SEPA QUE TENEMOS ESTE MÉTODO.
+        //SIMPLEMENTE QUE SEA UNA HERRAMIENTA INTERNA DE LA CLASE PARES IMPARES.
+
+        teclado.close();
     }
 }
